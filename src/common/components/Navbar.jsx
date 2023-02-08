@@ -10,12 +10,15 @@ import Link from "@mui/material/Link";
 // Images
 import Logo from "../../assets/images/logo.svg";
 
+// Utils
+import { Colors } from "../utils/constants";
+
 const Navbar = () => {
   return (
     <Stack
       justifyContent="space-between"
       direction="row"
-      sx={{ bgcolor: "yellow", mt: 2, mx: 2, p: 2 }}
+      sx={{ mt: 2, mx: 2, p: 2 }}
     >
       <Stack>
         <Link href="/">
@@ -36,6 +39,11 @@ const Navbar = () => {
                   outline: "none",
                   border: "none",
                 },
+                ":hover": {
+                  color: Colors.orange,
+                },
+                color: Colors.veryDarkBlue,
+                textTransform: "none",
               }}
             >
               Home
@@ -48,6 +56,11 @@ const Navbar = () => {
                   outline: "none",
                   border: "none",
                 },
+                ":hover": {
+                  color: Colors.orange,
+                },
+                color: Colors.veryDarkBlue,
+                textTransform: "none",
               }}
             >
               New
@@ -60,6 +73,11 @@ const Navbar = () => {
                   outline: "none",
                   border: "none",
                 },
+                ":hover": {
+                  color: Colors.orange,
+                },
+                color: Colors.veryDarkBlue,
+                textTransform: "none",
               }}
             >
               Popular
@@ -72,6 +90,11 @@ const Navbar = () => {
                   outline: "none",
                   border: "none",
                 },
+                ":hover": {
+                  color: Colors.orange,
+                },
+                color: Colors.veryDarkBlue,
+                textTransform: "none",
               }}
             >
               Trending
@@ -84,6 +107,11 @@ const Navbar = () => {
                   outline: "none",
                   border: "none",
                 },
+                ":hover": {
+                  color: Colors.orange,
+                },
+                color: Colors.veryDarkBlue,
+                textTransform: "none",
               }}
             >
               Categories
